@@ -40,12 +40,12 @@
 
 .btn {
   display: flex;
-  gap: 8.3%;
-  margin: 5px;
-  color: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  line-height: 29px;
+    gap: 16.3%;
+    margin: 12px;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 29px;
 }
 
 
@@ -92,4 +92,22 @@
 
 .delete-selected:hover {
   background-color: greenyellow;
+}
+
+@media only screen and (min-width: 1366px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    width: 100%;
+  }
 }
